@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Hello World with Preact, htm and csz",
   "scripts": {
-    "dev": "taskr dev"
+    "dev": "taskr dev",
+    "prod": "taskr prod"
   },
   "author": "ivanheral <ivanhernandezal@gmail.com>",
   "keywords": [
@@ -15,6 +16,7 @@
     "@taskr/esnext": "^1.1.0",
     "@taskr/watch": "^1.1.0",
     "taskr": "^1.1.0",
-    "taskr-terser": "^1.0.0"
+    "taskr-terser": "^1.0.0",
+    "taskr-sucrase": "^1.0.0"
   }
 }
