@@ -1,4 +1,4 @@
-import bs from './server/servor';
+import bs from 'taskr-servor';
 const dest = 'dist';
 
 export async function js(task) {

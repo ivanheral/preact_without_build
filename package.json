@@ -16,6 +16,7 @@
     "@taskr/esnext": "^1.1.0",
     "@taskr/watch": "^1.1.0",
     "taskr": "^1.1.0",
+    "taskr-servor": "^1.0.0",
     "taskr-terser": "^1.0.0"
   }
 }
