@@ -5,10 +5,13 @@ import css from "https://unpkg.com/csz";
 import htm from "https://unpkg.com/htm?module";
 const html = htm.bind(createElement);
 const green = css`
-  color: red;
+  color: green;
 `;
 
+
+const show_alert = () => alert("hi!");
 // Components
 export default () => {
-  return html`<p className=${green}>About</p>`;
+  return html`<p className=${green} onClick=${show_alert}>Home</p>`;
 };
+

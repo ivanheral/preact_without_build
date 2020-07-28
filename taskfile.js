@@ -1,4 +1,5 @@
-import bs from 'taskr-servor';
+import ts from 'taskr-servor';
+import ex from 'child_process';
 const dest = 'dist';
 
 export async function js(task) {
@@ -14,11 +15,12 @@ export async function html(task) {
     await task.source('src/html/index.html').target(dest)
 }
 
-export async function dev(task) {
-    await task.parallel(['html', 'js']);
+export async function dev(task) {    
+    ex.exec("tsc -w");
+    await task.serial(['html', 'ts', 'js']);
     await task.watch('src/html/index.html', 'html');
     await task.watch('src/js/**/*.*', 'js');
-    bs.start({
+    ts.start({
         root: dest,
         port: "2000",
     });

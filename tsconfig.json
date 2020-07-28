@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "ESNext",
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "ES2015"
+        ],
+        "moduleResolution": "node",
+        "strict": true,
+        "target": "esnext",
+        "outDir": "src/js",
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src/ts/**/*", "global.d.ts"
+    ]
+}

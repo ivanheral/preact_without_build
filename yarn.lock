@@ -17,6 +17,11 @@
   dependencies:
     chokidar "^1.7.0"
 
+"@types/node@^14.0.26":
+  version "14.0.26"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.26.tgz#22a3b8a46510da8944b67bfc27df02c34a35331c"
+  integrity sha512-W+fpe5s91FBGE0pEa0lnqGLL4USgpLgs4nokw16SrBBco/gQxuua7KnArSEOd5iaMqbbSHV10vUDkJYJJqpXKA==
+
 anymatch@^1.3.0:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-1.3.2.tgz#553dcb8f91e3c889845dfdba34c77721b90b9d7a"
@@ -1017,10 +1022,10 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-taskr-servor@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/taskr-servor/-/taskr-servor-1.0.0.tgz#bf314bc35e8807ceb5ec732f552763a64ccaf215"
-  integrity sha512-RriP16XaJMXotxQGUJspM5UUYjYWBqt4YHaLoXbMIIrIlmg1p5X5ki7c2tcSBs5l7VQOVhSXfsIOZaAy3WllZA==
+taskr-servor@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/taskr-servor/-/taskr-servor-1.0.1.tgz#4d93e48b6b1c9fb93a740b0d36e2dd2ec8faaaa4"
+  integrity sha512-u2PZNEM92icThTAvVEjcTA7QmcbMSst9E25nQGjik/dVLdrhHrycNRfbakyn8QZRkhmHzTcDb/sN332MaNOkqA==
 
 taskr-terser@^1.0.0:
   version "1.0.0"
@@ -1079,6 +1084,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+typescript@^3.9.7:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 union-value@^1.0.0:
   version "1.0.1"

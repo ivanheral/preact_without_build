@@ -10,4 +10,5 @@ const routes = [{
         mod: "about/about",
     }
 ];
+
 export default routes;

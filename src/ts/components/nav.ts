@@ -11,7 +11,7 @@ import {
     Link
 } from "https://unpkg.com/preact-router?module";
 // routes
-import routes from "./routes.js";
+import routes from "../routes.js";
 
 const topnav = css `
 background-color: #333;

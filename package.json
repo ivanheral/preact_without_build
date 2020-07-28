@@ -3,20 +3,23 @@
   "version": "1.0.0",
   "description": "Hello World with Preact, htm and csz",
   "scripts": {
-    "dev": "taskr dev",
-    "prod": "taskr prod"
+    "dev": "taskr dev && tsc -w",
+    "prod": "taskr prod",
+    "tsc": "tsc"
   },
   "author": "ivanheral <ivanhernandezal@gmail.com>",
   "keywords": [
     "modules"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
   "devDependencies": {
     "@taskr/esnext": "^1.1.0",
     "@taskr/watch": "^1.1.0",
     "taskr": "^1.1.0",
-    "taskr-servor": "^1.0.0",
+    "taskr-servor": "^1.0.1",
     "taskr-terser": "^1.0.0"
   }
 }
