@@ -17,7 +17,7 @@ export async function html(task) {
 
 export async function dev(task) {    
     ex.exec("tsc -w");
-    await task.serial(['html', 'ts', 'js']);
+    await task.parallel(['html', 'js']);
     await task.watch('src/html/index.html', 'html');
     await task.watch('src/js/**/*.*', 'js');
     ts.start({

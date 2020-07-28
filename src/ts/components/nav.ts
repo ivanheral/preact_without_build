@@ -1,11 +1,17 @@
 import {
-    createElement
+    createElement, h
 } from "https://unpkg.com/preact?module";
 // styles
 import css from "https://unpkg.com/csz";
+import ps from "https://unpkg.com/picostyle?module";
 // html
 import htm from "https://unpkg.com/htm?module";
 const html = htm.bind(createElement);
+const style = ps(h);
+const Nav = style("div")({
+    backgroundColor: "#333",
+    overflow: "hidden"
+});
 // routing
 import {
     Link
@@ -13,12 +19,7 @@ import {
 // routes
 import routes from "../routes.js";
 
-const topnav = css `
-background-color: #333;
-overflow: hidden;
-`;
-
-const a = css `
+const a = css`
 float: left;
 color: #f2f2f2;
 text-align: center;
@@ -29,9 +30,9 @@ font-size: 17px;
 
 // Components
 export default () => {
-    return html `<div className=${topnav}>
-    ${routes.map(({path, name}) => {
+    return html`<${Nav}>
+    ${routes.map(({ path, name }) => {
         return html`<${Link} className=${a} href=${path}>${name}</${Link}>`;
-      })}
-  </div>`;
+    })}
+  </${Nav}>`;
 };

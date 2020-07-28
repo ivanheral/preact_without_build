@@ -1,17 +1,18 @@
-import { createElement } from "https://unpkg.com/preact?module";
+import { createElement, h } from "https://unpkg.com/preact?module";
 // styles
-import css from "https://unpkg.com/csz";
+import ps from "https://unpkg.com/picostyle?module";
 // html
 import htm from "https://unpkg.com/htm?module";
 const html = htm.bind(createElement);
-const green = css`
-  color: green;
-`;
+const style = ps(h);
 
+const Text = style("p")({
+  color: "red"
+});
 
 const show_alert = () => alert("hi!");
 // Components
 export default () => {
-  return html`<p className=${green} onClick=${show_alert}>Home</p>`;
+  return html`<${Text} onClick=${show_alert}>Home</${Text}>`;
 };
 
