@@ -1017,10 +1017,10 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-taskr-servor@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/taskr-servor/-/taskr-servor-1.0.1.tgz#4d93e48b6b1c9fb93a740b0d36e2dd2ec8faaaa4"
-  integrity sha512-u2PZNEM92icThTAvVEjcTA7QmcbMSst9E25nQGjik/dVLdrhHrycNRfbakyn8QZRkhmHzTcDb/sN332MaNOkqA==
+taskr-servor@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/taskr-servor/-/taskr-servor-1.0.3.tgz#19ab4bce69fa86eed5786f7d90d418ab6b6eea45"
+  integrity sha512-ZrKkyILKm/JeCnZrez1aJ/5JrGP1oBK1mna1LM6wWwpfabeh9PelSwCNE9Gkp73SwLelJlhhoS0T/QR1xZJ9uA==
 
 taskr-terser@^1.0.0:
   version "1.0.0"

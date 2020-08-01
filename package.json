@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "taskr dev",
     "prod": "taskr prod",
-    "tsc": "tsc"
+    "tsc": "tsc -w"
   },
   "author": "ivanheral <ivanhernandezal@gmail.com>",
   "keywords": [
@@ -19,7 +19,7 @@
     "@taskr/esnext": "^1.1.0",
     "@taskr/watch": "^1.1.0",
     "taskr": "^1.1.0",
-    "taskr-servor": "^1.0.1",
+    "taskr-servor": "^1.0.3",
     "taskr-terser": "^1.0.0"
   }
 }
